@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg"></div>
+    <!-- Intro Section -->
+    <div id="introSectionBlackener">
+    </div>
+    <video id='introVideo' muted loop autoplay>
+        <source src='media/bg-video.mp4' type='video/mp4'>
+    </video>
+    <section id="introSection" class='pt-5 container'>
+        <!-- Header -->
+        <header class='mt-3 text-center'>
+        <h1 class='header-h1'>Hi, <br>I'm Matheus Calderon,</h1>
+        <h3 class='header-h2'>Web Developer</h3>
+        <h4 class='header-h3 mt-4'>Based in Saint-Jean-Sur-Richelieu, Quebec.</h4>
+        </header> <!-- //Header -->
+        
+        <!-- Main Content Area -->
+        <div class="content">
+
+                <!-- Useful Profile Links-->
+                <div id="profileLinks" class='d-flex flex-row flex-nowrap justify-content-center mt-5'>
+                    <a href='#' class="profile-link text-center mx-4">
+                        <i class='fab fa-linkedin fa-2x'></i>
+                        <p>LinkedIn</p>
+                    </a>
+
+                    <a href='#' class="profile-link text-center mx-4">
+                        <i class='fas fa-file fa-2x'></i>
+                        <p>Resume</p>
+                    </a>
+
+                    <a href='#' class="profile-link text-center mx-4">
+                    <i class='fab fa-github fa-2x'></i>
+                        <p>Github</p>
+                    </a>
+                </div><!-- //#profileLinks -->
+
+                <!-- Contact -->
+                <div id="contact" class='d-flex flex-column align-items-center mt-5'>
+                    <h5 class='pb-1'>Contact me</h5>
+                    <p>matheuscalderon@hotmail.com</p>
+                    <p>+1 514 2176422</p>
+                </div> <!-- //#contact -->
+
+                <a href='#projectsSection' class='next-section-button position-absolute text-center'>
+                    <i class='fas fa-sort-down fa-3x'></i>
+                    <p>View Projects</p>
+                </a>
+                
+            </section> <!-- //#introSection -->
+            <!-- Projects Section -->
+            <section id='projectsSection'>
+                <h2 id='projectsTitle' class='text-center h4 mt-5'>My Projects</h2>
+                <div id="projectsContainer">
+                    <!-- Projects -->
+                    <div class="project-card d-flex flex-column flex-nowrap px-4 my-3 py-3">
+                        <h5 class='mb-3'>Project Title</h5>
+                        <img src="https://via.placeholder.com/240x160?text=Project+Thumb" alt="" class='fluid'>
+                        <p class='px-1 py-1'>Some reasonable description of project on the card.</p>
+                        <p class='px-1 py-1'><strong>Tech Stack:</strong> HTML, JS, CSS, Bootstrap and Jquery.</p>
+                        <div class="card-buttons d-flex flex-row flex-nowrap justify-content-center mt-3">
+                            <a href="" class='card-button'>View Live</a>
+                            <a href="" class='card-button'>Source Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card d-flex flex-column flex-nowrap px-4 my-3 py-3">
+                        <h5 class='mb-3'>Project Title</h5>
+                        <img src="https://via.placeholder.com/240x160?text=Project+Thumb" alt="" class='fluid'>
+                        <p class='px-1 py-1'>Some reasonable description of project on the card.</p>
+                        <p class='px-1 py-1'><strong>Tech Stack:</strong> HTML, JS, CSS, Bootstrap and Jquery.</p>
+                        <div class="card-buttons d-flex flex-row flex-nowrap justify-content-center mt-3">
+                            <a href="" class='card-button'>View Live</a>
+                            <a href="" class='card-button'>Source Code</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card d-flex flex-column flex-nowrap px-4 my-3 py-3">
+                        <h5 class='mb-3'>Project Title</h5>
+                        <img src="https://via.placeholder.com/240x160?text=Project+Thumb" alt="" class='fluid'>
+                        <p class='px-1 py-1'>Some reasonable description of project on the card.</p>
+                        <p class='px-1 py-1'><strong>Tech Stack:</strong> HTML, JS, CSS, Bootstrap and Jquery.</p>
+                        <div class="card-buttons d-flex flex-row flex-nowrap justify-content-center mt-3">
+                            <a href="" class='card-button'>View Live</a>
+                            <a href="" class='card-button'>Source Code</a>
+                        </div>
+                    </div>
+            </div> <!-- // Projects -->
+        </section> <!-- //#projectsSection -->
+        </div> <!-- //.content -->
+    
+    <footer>
+        <div class='row m-0 px-3 py-3'>
+            <div class="footer-section col-12 d-flex flex-row flex-nowrap justify-content-center mb-2">
+                <span class='text-center'>
+                <p>matheuscalderon@hotmail.com</p>
+                <p>+1 514 2176422</p>
+                </span>
+            </div> <!-- // .footer-section -->
+            <div class="footer-section col-12 d-flex flex-row flex-nowrap justify-content-center">
+                <p>Based in Saint-Jean-Sur-Richelieu, QC, CA.</p>
+            </div> <!-- // .footer-section -->
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
