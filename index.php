@@ -28,7 +28,7 @@
     <!-- Projects Section -->
     <section id='secondSection'>
         <h2 id='projectsTitle' class='text-center h4 mt-5'><?php echo get_theme_mod('portfolio-header2-description'); ?></h2>
-        <div id="section2Container">
+        <div id="section2Container align-items-start">
             <?php dynamic_sidebar( 'section2-body' );?>
         </div>
     </section> <!-- //#secondSection -->
